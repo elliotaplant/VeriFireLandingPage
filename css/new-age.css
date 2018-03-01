@@ -81,6 +81,7 @@ section h2 {
   font-size: 12px;
   padding: 8px 10px;
   color: #222222;
+  border: 0;
 }
 
 #mainNav .navbar-nav > li > a {
