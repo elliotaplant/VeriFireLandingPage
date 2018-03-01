@@ -252,8 +252,7 @@ section.features .section-heading p {
   margin-bottom: 0;
 }
 
-section.features .device-container,
-section.features .feature-item {
+section.features .device-container {
   max-width: 325px;
   margin: 0 auto;
 }
