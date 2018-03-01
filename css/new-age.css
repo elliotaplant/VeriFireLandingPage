@@ -364,11 +364,17 @@ section.contact ul.feature-list hr {
 }
 
 section.contact .plans .feature-item {
+  display: block;
+  color: inherit;
   margin-bottom: 2em;
   margin-bottom: 2em;
   border: 1px solid rgba(34, 34, 34, 0.3);
   padding: 16px;
   border-radius: 24px;
+}
+
+section.contact .plans .feature-item:hover {
+  text-decoration: none;
 }
 
 section.contact .plans .feature-item .plan-name {
