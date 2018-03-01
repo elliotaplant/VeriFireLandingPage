@@ -55,6 +55,12 @@ section.cta {
     }
   }
 
+  &.stillbuilding-cta {
+    height: 100vh;
+    background-image: url("../img/smoothsparks.jpeg");
+    color: white;
+  }
+
   .overlay {
     position: absolute;
     top: 0;

@@ -348,6 +348,12 @@ section.cta.signup-cta .overlay {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
 }
 
+section.cta.stillbuilding-cta {
+  height: 100vh;
+  background-image: url("../img/smoothsparks.jpeg");
+  color: white;
+}
+
 section.cta .overlay {
   position: absolute;
   top: 0;
