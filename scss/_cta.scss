@@ -38,9 +38,20 @@ section.cta {
 
         &:focus {
           background-color: transparent;
-          // box-shadow: 0 0 0 .2rem $theme-primary;
         }
       }
+
+      .btn-outline {
+        background-color: transparent;
+
+        &:hover {
+          background-color: $theme-primary;
+        }
+      }
+    }
+
+    .overlay {
+      background: linear-gradient(to bottom, fade-out(black, .1), fade-out(black, .3));
     }
   }
 

@@ -336,6 +336,18 @@ section.cta.signup-cta #signup-form .form-control:focus {
   background-color: transparent;
 }
 
+section.cta.signup-cta #signup-form .btn-outline {
+  background-color: transparent;
+}
+
+section.cta.signup-cta #signup-form .btn-outline:hover {
+  background-color: #FF9505;
+}
+
+section.cta.signup-cta .overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+}
+
 section.cta .overlay {
   position: absolute;
   top: 0;
@@ -464,4 +476,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.ep-clearfix {
+  margin-top: 2em;
 }
