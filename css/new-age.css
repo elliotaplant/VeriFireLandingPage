@@ -157,6 +157,12 @@ header.masthead {
   background: url("../img/bg-pattern.png"), #7b4397;
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #DE1A1A);
   background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #DE1A1A);
+  background: linear-gradient(to left, rgba(123, 67, 151, 0.4), rgba(222, 26, 26, 0.4)), url("../img/darkflames.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
 }
 
 header.masthead .header-content {
