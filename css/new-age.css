@@ -331,6 +331,8 @@ section.contact {
 
 section.contact h2 {
   margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.1);
   margin-bottom: 25px;
 }
 
@@ -338,42 +340,22 @@ section.contact h2 i {
   color: #dd4b39;
 }
 
-section.contact ul.list-social {
-  margin-bottom: 0;
+section.contact .price {
+  font-size: 100px;
+  color: #7b4397;
+  background: -webkit-linear-gradient(#7b4397, #DE1A1A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-section.contact ul.list-social li a {
-  font-size: 40px;
-  line-height: 80px;
-  display: block;
-  width: 80px;
-  height: 80px;
-  color: white;
-  border-radius: 100%;
+section.contact ul.feature-list {
+  margin-top: 25px;
+  font-size: 1.3em;
 }
 
-section.contact ul.list-social li.social-twitter a {
-  background-color: #1da1f2;
-}
-
-section.contact ul.list-social li.social-twitter a:hover {
-  background-color: #0d95e8;
-}
-
-section.contact ul.list-social li.social-facebook a {
-  background-color: #3b5998;
-}
-
-section.contact ul.list-social li.social-facebook a:hover {
-  background-color: #344e86;
-}
-
-section.contact ul.list-social li.social-google-plus a {
-  background-color: #dd4b39;
-}
-
-section.contact ul.list-social li.social-google-plus a:hover {
-  background-color: #d73925;
+section.contact ul.feature-list li {
+  list-style: none;
+  margin-bottom: 10px;
 }
 
 footer {
