@@ -317,6 +317,25 @@ section.cta .cta-content h2 {
   }
 }
 
+section.cta.signup-cta {
+  padding: 100px 0;
+  height: 100vh;
+  background-image: url("../img/smoothsparks.jpeg");
+}
+
+section.cta.signup-cta #signup-form {
+  color: white;
+}
+
+section.cta.signup-cta #signup-form .form-control {
+  color: white;
+  background-color: transparent;
+}
+
+section.cta.signup-cta #signup-form .form-control:focus {
+  background-color: transparent;
+}
+
 section.cta .overlay {
   position: absolute;
   top: 0;

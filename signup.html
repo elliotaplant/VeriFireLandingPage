@@ -42,180 +42,52 @@
 
 <body id="page-top">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top"
-       id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger"
-         href="/">VeriFire</a>
-    </div>
-  </nav>
-
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-lg-7 my-auto">
-          <div class="header-content mx-auto">
-            <h1 class="mb-5">Does anyone want your product?</h1>
-            <p> VeriFire can answer this essential question before you spend
-              time and money on an uncertain business idea. </p>
-            <a href="#download"
-               class="btn btn-outline btn-xl js-scroll-trigger">How it works</a>
-          </div>
-        </div>
-        <div class="col-lg-5 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/demo-screen-1.jpg"
-                       class="img-fluid"
-                       alt="">
-                </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <section class="download bg-primary text-center"
-           id="download">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <h2 class="section-heading">Step 1: Validation</h2>
-          <hr>
-          <p class="mt-5">Most businesses fail because they overestimate the size of their
-            market. If you don't want to get burned, verify that your customers
-            exist. VeriFire is the fastest and easiest way to make sure
-            you're on the right track.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="features"
-           id="features">
-    <div class="container">
-      <div class="section-heading text-center">
-        <h2>Three steps to validate your market</h2>
-        <p class="text-muted">Save time and money before you build</p>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="feature-item">
-            <i class="icon-screen-desktop text-primary"></i>
-            <h3>Create Your Page</h3>
-            <p class="text-muted">Just add your text and images to an effortless template. No
-              designers or engineers required</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="feature-item">
-            <i class="icon-people text-primary"></i>
-            <h3>Collect Interest</h3>
-            <p class="text-muted">Bring real customers to your page to gather aquisition and
-              activation data</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="feature-item">
-            <i class="icon-check text-primary"></i>
-            <h3>Build Confidently</h3>
-            <p class="text-muted">Start your business with confidence and get feedback from interested
-              customers to improve your product</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta">
+  <section class="cta signup-cta">
     <div class="cta-content">
       <div class="container">
-        <h2>Stop waiting.<br>Start verifying.</h2>
-        <a href="#contact"
-           class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+        <h2>Welcome to VeriFire,<br>it's nice to meet you.</h2>
+        <form id="signup-form"
+              name="signup"
+              method="POST"
+              netlify>
+
+          <!-- Profile -->
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+              <label for="first-name">First Name</label>
+              <input required
+                     type="text"
+                     name="first-name"
+                     class="form-control">
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="last-name">Last Name</label>
+              <input required
+                     type="text"
+                     name="last-name"
+                     class="form-control">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+              <label for="email">Email</label>
+              <input required
+                     type="email"
+                     name="email"
+                     class="form-control">
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="business-name">Business Name (optional)</label>
+              <input type="text"
+                     name="business-name"
+                     class="form-control">
+            </div>
+          </div>
+        </form>
       </div>
     </div>
     <div class="overlay"></div>
   </section>
-
-  <section class="contact bg-primary"
-           id="contact">
-    <div class="container">
-      <h2>Choose a Plan</h2>
-      <div class="row plans">
-        <div class="col-lg-4">
-          <div class="feature-item">
-            <h3 class="plan-name">Basic</h3>
-            <h5 class="price">$49</h5>
-            <ul class="feature-list">
-              <li>Effortless template site</li>
-              <hr>
-              <li>3 months of live testing</li>
-              <hr>
-              <li>Unlimited access to customer aquisition and activation data</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="feature-item">
-            <h3 class="plan-name">Advanced</h3>
-            <h5 class="price">$199</h5>
-            <ul class="feature-list">
-              <li>Up to 6 months of live testing</li>
-              <hr>
-              <li>Custom domain connection</li>
-              <hr>
-              <li>Automated form response emails</li>
-              <hr>
-              <li>A/B content optimization</li>
-              <hr>
-              <li>Unlimited page revisions</li>
-              <hr>
-              <li>24/7 Customer support</li>
-              <hr>
-              <li>Includes all Basic features</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="feature-item">
-            <h3 class="plan-name">Pro</h3>
-            <h5 class="price">$899</h5>
-            <ul class="feature-list">
-              <li>Full Google and Facebook ad campaign support</li>
-              <hr>
-              <li>Custom domain management</li>
-              <hr>
-              <li>Personalized page construction support</li>
-              <hr>
-              <li>Includes all Advanced features</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; VeriFire 2018. All Rights Reserved.</p>
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="mailto:elliotaplant@gmail.com?Subject=VeriFire">Email</a>
-        </li>
-      </ul>
-    </div>
-  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
