@@ -50,6 +50,6 @@ $("#signup-form").submit(function(e) {
   console.log($form.serialize());
 
   $.post($form.attr("action"), $form.serialize()).then(function() {
-    window.location += 'thankyou';
+    window.location += 'stillbuilding';
   });
 });
