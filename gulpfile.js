@@ -91,10 +91,6 @@ gulp.task('publish', ['default'], function() {
     .pipe(gulp.dest('dist/vendor'));
 
   gulp
-    .src('./img/*')
-    .pipe(gulp.dest('dist/img'));
-
-  gulp
     .src('./css/*.min.*')
     .pipe(gulp.dest('dist/css'));
 
