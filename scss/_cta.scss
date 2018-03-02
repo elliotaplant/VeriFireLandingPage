@@ -59,6 +59,10 @@ section.cta {
     height: 100vh;
     background-image: url("../img/smoothsparks.jpeg");
     color: white;
+
+    .overlay {
+      background: linear-gradient(to bottom, fade-out(black, .3), fade-out(black, .2));
+    }
   }
 
   .overlay {
