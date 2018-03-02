@@ -83,7 +83,7 @@ gulp.task('js:minify', function() {
 // Minify JavaScript
 gulp.task('publish', function() {
   gulp
-    .src('./*.html')
+    .src(['./*.html', './favicon/*'])
     .pipe(gulp.dest('dist'));
 
   gulp
