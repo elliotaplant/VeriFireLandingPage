@@ -54,8 +54,8 @@ section.contact {
 
       &:hover {
         text-decoration: none;
-        border-color: transparentize(white, 1);
-        background-color: transparentize(white, 0.2);
+        border-color: white;
+        background-color: white;
 
         .price {
           // border-color: transparentize(white, 0.1);

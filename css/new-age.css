@@ -421,8 +421,8 @@ section.contact .plans .feature-item {
 
 section.contact .plans .feature-item:hover {
   text-decoration: none;
-  border-color: rgba(255, 255, 255, 0);
-  background-color: rgba(255, 255, 255, 0.8);
+  border-color: white;
+  background-color: white;
 }
 
 section.contact .plans .feature-item .plan-name {
