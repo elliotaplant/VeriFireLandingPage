@@ -81,7 +81,7 @@ gulp.task('js:minify', function() {
 });
 
 // Minify JavaScript
-gulp.task('publish', function() {
+gulp.task('publish', ['default'], function() {
   gulp
     .src(['./*.html', './favicon/*'])
     .pipe(gulp.dest('dist'));
