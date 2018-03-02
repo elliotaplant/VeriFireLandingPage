@@ -82,17 +82,25 @@ gulp.task('js:minify', function() {
 
 // Minify JavaScript
 gulp.task('publish', function() {
-  gulp.src('./*.html')
+  gulp
+    .src('./*.html')
     .pipe(gulp.dest('dist'));
 
-  gulp.src('./vendor/**/*')
+  gulp
+    .src('./vendor/**/*')
     .pipe(gulp.dest('dist/vendor'));
 
-    gulp.src('./css/*.min.*')
-      .pipe(gulp.dest('dist/css'));
+  gulp
+    .src('./img/*')
+    .pipe(gulp.dest('dist/img'));
 
-    gulp.src('./js/*.min.*')
-      .pipe(gulp.dest('dist/js'));
+  gulp
+    .src('./css/*.min.*')
+    .pipe(gulp.dest('dist/css'));
+
+  gulp
+    .src('./js/*.min.*')
+    .pipe(gulp.dest('dist/js'));
 });
 
 // JS
