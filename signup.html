@@ -124,7 +124,7 @@
 
   <script type="text/javascript">
   try {
-    $('#plan-input').val(location.hash)
+    $('#plan-input').val(location.hash.substr(1));
   } catch(e) {
     console.error('unable to detect plan name');
   }
