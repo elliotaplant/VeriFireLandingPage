@@ -158,7 +158,7 @@ header.masthead {
   background: url("../img/bg-pattern.png"), #7b4397;
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #DE1A1A);
   background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #DE1A1A);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("../img/darkflames.jpeg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("https://i.imgur.com/TBsZ2kO.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -292,7 +292,7 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/brightflames.jpg");
+  background-image: url("https://i.imgur.com/CGAMFhQ.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -321,7 +321,7 @@ section.cta .cta-content h2 {
 section.cta.signup-cta {
   padding: 100px 0;
   height: 100vh;
-  background-image: url("../img/smoothsparks.jpeg");
+  background-image: url("https://i.imgur.com/QNHbLJV.jpg");
 }
 
 section.cta.signup-cta #signup-form {
@@ -351,7 +351,7 @@ section.cta.signup-cta .overlay {
 
 section.cta.stillbuilding-cta {
   height: 100vh;
-  background-image: url("../img/smoothsparks.jpeg");
+  background-image: url("https://i.imgur.com/Zcao1jo.jpg");
   color: white;
 }
 

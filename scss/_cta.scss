@@ -3,7 +3,7 @@
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/brightflames.jpg");
+  background-image: url("https://i.imgur.com/CGAMFhQ.jpg");
   background-position: center;
   @include background-cover;
 
@@ -27,7 +27,7 @@ section.cta {
   &.signup-cta {
     padding: 100px 0;
     height: 100vh;
-    background-image: url("../img/smoothsparks.jpeg");
+    background-image: url("https://i.imgur.com/QNHbLJV.jpg");
 
     #signup-form {
       color: white;
@@ -57,7 +57,7 @@ section.cta {
 
   &.stillbuilding-cta {
     height: 100vh;
-    background-image: url("../img/smoothsparks.jpeg");
+    background-image: url("https://i.imgur.com/Zcao1jo.jpg");
     color: white;
 
     .overlay {

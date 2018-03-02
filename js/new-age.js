@@ -24,7 +24,7 @@
     });
 
     // Activate scrollspy to add active class to navbar items on scroll
-    $('body').scrollspy({target: '#mainNav', offset: 54,});
+    $('body').scrollspy({target: '#mainNav', offset: 54});
 
     // Collapse Navbar
     var navbarCollapse = function() {
@@ -38,7 +38,9 @@
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
-  } catch (e) {}
+  } catch (e) {
+    console.log('jQuery failed to load');
+  }
 
 })(jQuery); // End of use strict
 
@@ -49,7 +51,12 @@ $("#signup-form").submit(function(e) {
   var $form = $(this);
   console.log($form.serialize());
 
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    window.location.pathname = 'stillbuilding';
-  });
+  $
+    .post($form.attr("action"), $form.serialize())
+    .then(function() {
+      window.location.pathname = 'stillbuilding.html';
+    })
+    .catch(function(error) {
+      window.location.pathname = 'stillbuilding.html';
+    });
 });
