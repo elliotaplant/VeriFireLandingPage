@@ -54,11 +54,11 @@ section.contact {
 
       &:hover {
         text-decoration: none;
-        border-color: transparentize(white, 0.1);
-        background-color: transparentize(white, 0.9);
+        border-color: transparentize(white, 1);
+        background-color: transparentize(white, 0.2);
 
         .price {
-          border-color: transparentize(white, 0.1);
+          // border-color: transparentize(white, 0.1);
         }
       }
 
